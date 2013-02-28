@@ -1,0 +1,95 @@
+.form{
+    font:12px verdana;
+    margin:30px auto;
+    width:700px;
+    padding:15px;
+    background:#FFFFFF;
+    border:1px solid #FFF;
+    border-radius:10px;
+    box-shadow:0 0 18px #333
+}
+.wrapper{
+    width:550px;
+    overflow: hidden;
+    padding:5px 0
+}
+.style{
+    float:left;
+    width:250px;
+    margin:8px;
+    font-weight:600;
+    color:#8298F2
+}
+.style1{
+    float:left;
+    width:250px;
+    margin:0 8px;
+    font-weight:600;
+    color:#8298F2
+}
+.field{
+    float:left;
+    margin-bottom:10px
+}
+span{
+    color:red
+}
+input[type="radio"]{
+    border:1px solid #ffc213;
+    background:#f3f3f3;
+    box-shadow:0 0 13px #ffc213;
+}
+input[name="Delivery"]{
+    border:1px solid #04ffff;
+    background:#f3f3f3;
+    box-shadow:0 0 13px #04ffff;
+}
+input[type="checkbox"]{
+
+    border:1px solid green;
+    background:#f3f3f3;
+    box-shadow:0 0 13px green;
+}
+input[type="text"]{
+    width:200px;
+    border:1px solid blue;
+    background:#f3f3f3;
+    box-shadow:0 0 15px blue;
+    margin:8px 0;
+    border-radius:5px
+}
+input[type="text"]:focus, textarea:focus{
+    border:1px solid red
+}
+textarea{
+    height:150px;
+    padding:10px;
+    border:1px solid red;
+    background:#f3f3f3;
+    box-shadow:0 0 5px red;
+    border-radius:5px
+}
+.buttons{
+    margin:5px 0 5px 170px
+}
+.buttons input{
+    height:25px;
+    width:90px;
+    background:#999;
+    box-shadow:0 0 13px #000;
+    border:1px solid #FFF;
+    border-radius:5px;
+    font-weight:600;
+    color:#fff;
+    padding-bottom:3px
+}
+.buttons input:hover{
+    color:#666;
+    background:#D4DAF2
+}
+input[type="submit"]{
+    margin-right:10px
+}
+.center{
+      background:#EDEEF2;
+}

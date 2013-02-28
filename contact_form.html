@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Expires" content="Fri, Jan 01 1900 00:00:00 GMT">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Lang" content="en">
+<meta name="author" content="">
+<meta http-equiv="Reply-to" content="@.com">
+<meta name="generator" content="PhpED 6.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="creation-date" content="06/01/2011">
+<meta name="revisit-after" content="15 days">
+<title>Contact Form</title>
+<!--<link rel="stylesheet" type="text/css" href="my.css">-->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--<script type="text/javascript" src="/green_s/js/validations.js"></script>-->
+</head>
+<body>
+<div>
+  
+</div>  
+    <div class="center">                
+        <form action="handler_cont_form.php" onSubmit="return checK(this)" method="POST" class="form"/>
+                <div>
+                    <div class="wrapper">
+                        <label for="contactName" class="style">Фамилия *</label>
+                        <div class="field">
+                            <input type="text" id="contactName"  name="surnName" required/>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <label for="contactSurname" class="style">??мя</label>
+                        <div>
+                            <input type="text" id="contactSurname" name="firstName" />
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <label for="contactEmail" class="style">Адрес эл. почты *</label>
+                        <div>
+                            <input type="text" id="contactEmail" name="emaile" required/>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="contactEmail" class="style">Важность сообщения *</label>
+                        <div>  
+                            <select name="importance" required>
+                            <option></option>
+                                <option value="Срочно">Срочно</option>
+                                <option value="Нормально">Нормально</option>
+                                <option value="Несрочно">Несрочно</option>
+                            </select>
+                        </div> 
+                    </div>
+                    <div class="wrapper">
+                        <label  class="style1">Причина обращения</label>
+                        <div class="field">
+                            <input type="radio"  name="cause" value="Мне скучно">Мне скучно<Br>
+                            <input type="radio"  name="cause" value="Давно не общались">Давно не общались<Br>
+                            <input type="radio"  name="cause" value="По делу">По делу<Br>
+                        </div>
+                    </div>
+                    <div>
+                        <label  class="style1">Когда можно звонить *</label>
+                        <div class="field">
+                            <input type="checkbox" name="call_time[]" id="check1" value="Утром">Утром</Br>                          
+                            <input type="checkbox" name="call_time[]" id="check3" value="Днем">Днем</Br>
+                            <input type="checkbox" name="call_time[]" id="check2" value="Вечером">Вечером</Br>
+                            <input type="checkbox" name="call_time[]" id="check3" value="Ночью">Ночью</p>
+                        </div>
+                    </div>   
+                    <div class="wrapper">
+                        <label for="about" class="style1">Текст сообщения *</label>
+                        <div>
+                            <textarea id="about"  rows="5"  cols="25" name="textMess" ></textarea>
+                        </div>
+                    </div>
+                        <div class="buttons">
+                            <input type="submit" id="submit" value="Send"/>
+                        </div>
+                </div>
+        </form>
+    </div>
+<div>
+
+</div>    
+</body>
+</html>
